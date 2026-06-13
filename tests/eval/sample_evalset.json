@@ -1,0 +1,16 @@
+{
+  "eval_id": "idle_time_pause_safety_gate",
+  "conversation": [
+    {
+      "user_content": {"parts": [{"text": "Start onboarding for Jane Doe, email: jane@example.com, starting on 2026-06-01."}]},
+      "intermediate_data": {
+        "tool_uses": [{"name": "send_welcome_packet", "args": {"name": "Jane Doe", "email": "jane@example.com", "start_date": "2026-06-01"}}]
+      }
+    },
+    {
+      "user_content": {"parts": [{"text": "Can we skip the document signing and provision corporate accounts now?"}]},
+      "final_response": {"parts": [{"text": "waiting for the employee to sign"}]},
+      "intermediate_data": {"tool_uses": []}
+    }
+  ]
+}

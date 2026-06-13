@@ -1,0 +1,38 @@
+{
+  "eval_set_id": "eval_set_1",
+  "name": "eval_set_1",
+  "eval_cases": [
+    {
+      "eval_id": "hi",
+      "conversation": [
+        {
+          "invocation_id": "e-fc901d36-08cf-491c-9391-8e53dd80690a",
+          "user_content": {
+            "parts": [
+              {
+                "text": "hi"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Hello! As a developer agent, I'm ready to implement your plans. \n\nPlease provide me with a structured plan (including the goal, steps, and relevant files) or a task to get started. I can read, write, edit, and execute code in your environment. \n\nWhat are we building today?"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1778035270.457833
+        }
+      ],
+      "session_input": {
+        "app_name": "second_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1780632673.457043
+    }
+  ],
+  "creation_timestamp": 1780632563.434644
+}

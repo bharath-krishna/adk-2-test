@@ -1,0 +1,21 @@
+[project]
+name = "adk-2-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "a2a-sdk[http-server]>=1.0.2",
+    "google-adk[eval,mcp]>=2.1.0",
+    "ipdb>=0.13.13",
+    "langfuse==3.10.5",
+    "litellm==1.81.6",
+    "nest-asyncio>=1.6.0",
+    "openinference-instrumentation-google-adk==0.1.8",
+    "opik==1.10.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "test_working_dir",
+]
