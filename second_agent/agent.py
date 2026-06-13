@@ -655,10 +655,6 @@ async def my_node(ctx: Context, node_input: str):
 
 @node(name="my_workflow", rerun_on_resume=True)
 async def my_workflow(ctx: Context, node_input):
-    tools = await explorer_skills_toolset.get_tools()
-    import ipdb
-
-    ipdb.set_trace()
     from pydantic_core._pydantic_core import ValidationError
 
     goal = ""
